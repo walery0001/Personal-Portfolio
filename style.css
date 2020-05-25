@@ -1,10 +1,10 @@
 
 body         {background-color: rgba(0, 55, 107, 1);
 				}
-#container_1{	
+#welcome-section{	
 				
 				width: 90%;
-				height: 100%;
+				height: 100vh;
 				display: grid;
 				grid-template-columns:150px 550px 1fr 150px;
 				grid-template-rows: 100px 70% 1fr;
@@ -16,24 +16,22 @@ body         {background-color: rgba(0, 55, 107, 1);
 				
 			}
 
-#top_header 	{
+#navbar 	{
 				top:0px;
 				width: 100%;
 				position: fixed; 
-				
 				background-color: rgba(0, 55, 107, 1);
-				
 				/*	grid-area: navbar;*/
-				left: 0px;
-				right: 0px;
 				grid-area:  1 / 1/1/5;
 				z-index: 2;
 				text-align: right;
 				padding-top: 70px;
-			
-			}
 
-#navbar{padding-right: 65px;}
+			}
+header{
+	width: 500px;float: right;margin-right: 168px;}
+
+/*#navbar{padding-right: 65px;}*/
 .navbar_link {
 				/*background-color: white;*/
 				font-size: 28px;
@@ -41,6 +39,7 @@ body         {background-color: rgba(0, 55, 107, 1);
 				padding-right: 40px;
 				color:white;
 				font-family: roboto mono;
+
 			}
 
 .navbar_link:hover{color: brown;}
@@ -58,7 +57,7 @@ body         {background-color: rgba(0, 55, 107, 1);
 				background-color: rgba(0, 55, 107, 1);
 				/*grid-area: content_left;*/
 				grid-area:  2 / 2/4/3;
-				
+				background-color: gray;
 				
 				
 			 }
@@ -84,7 +83,8 @@ h1 {
 #content_right{
 
 				background-color: rgba(0, 55, 107, 1);
-				
+				background-color: gray;
+
 				/*grid-area: content_right;*/
 				grid-area:  2 / 3/4/4;
 				z-index: 1;
@@ -92,10 +92,11 @@ h1 {
 				 
 			  }
 
-#welcome-section{ 	/*background: green; */
+#welcome{ 	/*background: green; */
 					margin: 0 auto;
 					height: 70%;
 					margin-top:150px;
+
 				}
 
 .hello           {
@@ -120,9 +121,9 @@ h1 {
 /*                     second cointainer                  */
 #container_2{	
 			
-
+				
 				width: 90%;
-				height: 100%;
+				height: 100vh;
 				display: grid;
 				grid-template-columns:150px 1fr 150px;
 				grid-template-rows:  90% 1fr;
@@ -137,12 +138,64 @@ h1 {
 				grid-area:  1 / 1/2/2;
 				
 			}
-#content_center{
+#projects{			
+					padding-top: 10px;
 					background-color:gray;
 					grid-area:  1 / 2/2/3;
+					display: flex;
+					height: 100%;
+					width: 100%;
+					flex-wrap: wrap;
+					justify-content:space-around;
+					padding-bottom: 10px;
+
+
 				}
 
+.project-tile{
+					width: 100%;height: 80%;
+    				background-position: top;
+    				background-size: cover; }
 
+ #box-1 {
+    				background-color: green;
+   					 width: 400px;
+   					 height: 400px;				
+  		}
+
+#img_box1{background-image: url("polanski.png");}
+
+  #box-2 {
+    		background-color: orangered;
+    		width: 400px;
+    		height: 400px;
+    
+  }
+#img_box2{background-image: url("polanski.png");}
+
+
+
+  #box-3 {
+    background-color: violet;
+     width: 400px;
+    height: 400px;
+  }
+  #box-4 {
+    background-color: yellow;
+    width: 400px;
+    height: 400px;
+
+  }
+  #box-5 {
+    background-color: green;
+   width: 400px;
+    height: 400px;
+  }
+  #box-6 {
+    background-color: black;
+  width: 400px;
+    height: 400px;
+}
 
 #right_side2{
 
