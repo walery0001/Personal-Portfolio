@@ -221,14 +221,14 @@ h1 {
 
   #box-4 {
    /* background-color: yellow;*/
-    width: 400px;
+    width: 450px;
     height: 400px;
   }
 #img_box4{background-image: url("technical.png");}
 
   #box-5 {
     /*background-color: green;*/
-   width: 400px;
+   width: 450px;
     height: 400px;
   }
 #img_box5{background-image: url("first.png");}
@@ -243,7 +243,7 @@ h1 {
 
   #box-6 {
     /*background-color: black;*/
-  width: 400px;
+   width: 450px;
     height: 400px;
 }
 #img_box6{background-image: url("to_do.png");}
