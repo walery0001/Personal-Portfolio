@@ -62,7 +62,7 @@ header{
 				
 			 }
 #avatar{
-				width: 70%;
+				width: 60%;
 				height:auto;
 		
 
@@ -179,11 +179,12 @@ h1 {
 					line-height: 22px;
 					color: white;
 					background-color: rgba(0, 55, 107, 1);
+					background-color: rgba(84, 93, 95, 1);
 					font-family: roboto mono;
 
 	}
 .project-tile:hover{
- 					box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+ 					box-shadow: inset 0 0 0 1000px rgba(84, 93, 95, .6);
  					/*height: 400px;
  
    transition: 1.5s;*/
@@ -257,27 +258,30 @@ h1 {
 			
 				background: red;
 				background-color: rgba(0, 55, 107, 1);
-				width: 70%;
+				width: 90%;
 				height: 30vh;
-			
+		
 				margin: 0 auto;
 				padding-top: 180px;
 			}
 #footer_link{margin-top:450px; 
 				display: flex;
-				width: 80%;
+				width: 100%;
 				height: 20vh;
 				background: gray;
 				margin: 0 auto;
 				padding-top: 50px;
 
-				
 			}
 .social-link{
 				width: 128px;height: 128px;
 				margin: 0 auto;
 			}
+.social-link:hover{
+				background-color: rgba(84, 93, 95, 1);
+				border-radius: 10%;
+}
+
 .social_img{
 				width: 100%;height: auto;
 }
-			
