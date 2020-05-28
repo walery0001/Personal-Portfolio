@@ -73,6 +73,7 @@ header{
 				height: auto;
 				padding-top: 190px;
 				padding-left:170px;
+			
 
 	}
 
@@ -128,7 +129,7 @@ h1 {
 				background: gray;
 					background-color: rgba(0, 55, 107, 1);
 				width: 90%;
-				height: 100vh;
+				height: auto;
 				display: grid;
 				grid-template-columns: 100% ;
 				grid-template-rows: 1fr 90% ;
@@ -255,23 +256,23 @@ h1 {
 
 			 
 #container_3{	
-			
-				background: red;
-				background-color: rgba(0, 55, 107, 1);
 				width: 90%;
-				height: 30vh;
-		
+				height: 25%;
 				margin: 0 auto;
-				padding-top: 180px;
+				display: block;
+				margin-top: 300px;
+				margin-bottom: 100px;
+				background-color: gray;
+				
 			}
-#footer_link{margin-top:450px; 
+#footer_link{ 
 				display: flex;
 				width: 100%;
-				height: 20vh;
+				height: 50%;
 				background: gray;
-				margin: 0 auto;
 				padding-top: 50px;
-
+				padding-bottom: 50px;
+				
 			}
 .social-link{
 				width: 128px;height: 128px;
@@ -294,7 +295,8 @@ h1 {
 	display: grid;
 	grid-template-columns:100%;
 	grid-template-rows: 10% 40% 1fr;
-	margin: 0 auto;
+	margin:auto;
+
 }
 #navbar 	{
 	top:0px;
@@ -315,7 +317,7 @@ background-color: gray;
 
 .navbar_link {
 	padding-right:10px;
-	font-size: 22px;
+	font-size: 28px;
 
 }
 #left_side 	{
@@ -323,7 +325,7 @@ display: none;
 }
 #content_left{
 	grid-area:  2 / 1/3/2;
-	
+	margin-top: 10px;
 	
  }
 #avatar{
@@ -368,35 +370,32 @@ h1 {
 #right_side{
 	display: none;
 	}
-
+			/* coooooooooontainnerrrrr 22222222222 */
 	#container_2{	
 		width: 100%;
-		height: 100vh;
-		display: grid;
-		grid-template-columns: 100% ;
-		grid-template-rows: 1fr 90% ;
-		margin: 0 auto;
+		
 	}
-#portfolio-title{
-			grid-area:  1 / 1/2/2;
-		}
+
+
 #portfolio-title h1{
-			margin-top:5px;
+			padding-top:15px;
 			width: 100%;
 			font-size: 20px;
 			border:0px;
+			
 		}
 
 	
 #projects{			
-			padding-top: 10px;
-			grid-area:  2 / 1/3/2;
+		
 			display: block;
-			height: 100%;
+			height: auto;
 			width: 100%;
 			flex-wrap: nowrap;
 			justify-content:none;
 			padding-bottom: 5px;
+		
+		
 		}
 /*boxs*/
 .project-tile{
@@ -407,8 +406,47 @@ h1 {
 }
 #box-1, #box-2, #box-3, 
 #box-4, #box-5, #box-6 {
-	/*background-color: green;*/
 		width: 100%;
-		height: auto;				
+		height: auto;	margin-bottom: 10px;			
 }
+#container_3{	
+	width: 100%;
+	height: 30%;
+	display:block;
+	margin-top:2800px;
+	margin-bottom: 60px;
+	
+	
+}
+#footer_link{ 
+	
+	width: 100%;
+	height: 50%;
+	background: gray;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.social-link{
+	width: 80px;height: 80px;
+}
+
+}
+
+@media screen and (max-height:600px){
+	
+	#avatar img{
+		
+		padding-top: 10px;
+}
+#welcome{ 	
+	
+	margin-top:0px;
+}
+.hello           {
+	
+	
+	line-height: 50px;
+}
+
 }
